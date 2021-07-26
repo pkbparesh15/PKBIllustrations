@@ -19,7 +19,7 @@
         background-image: url(./img/FrontView.jpg);
         background-repeat: no-repeat;
         background-attachment: fixed;
-        background-size: 100% 150%;
+        background-size: cover;
     }
     
     #Front .btn {
@@ -38,7 +38,7 @@
         text-transform: uppercase;
         letter-spacing: .1rem;
         margin-top: 30px;
-        position: fixed;
+        position: relative;
         text-align: center;
         cursor: pointer;
         transition: .3s ease;

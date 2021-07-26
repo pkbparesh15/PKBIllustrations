@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 20px;
+    font-size: auto;
     font-family: 'Lobster', cursive;
     font-family: 'Ultra', serif;
 }
@@ -44,7 +44,8 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%)
+    color: black;
+    font-size: 1rem;
 }
 
 .responsive:hover .gallery {
@@ -53,10 +54,4 @@ h1 {
 
 .responsive:hover .middle {
     opacity: 1;
-}
-
-.desc {
-    color: black;
-    font-size: 30px;
-    padding: 16px 32px;
 }
