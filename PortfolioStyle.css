@@ -12,7 +12,7 @@ html {
 
 h1 {
     text-decoration: solid;
-    font-size: 4rem;
+    font-size: auto;
     text-align: center;
     text-transform: uppercase;
     color: #000000;
@@ -23,8 +23,9 @@ h1 {
 /*img hovering*/
 
 .responsive {
+    float: left;
     position: relative;
-    width: 50%;
+    width: 33%;
 }
 
 .gallery {
@@ -45,7 +46,8 @@ h1 {
     left: 50%;
     transform: translate(-50%, -50%);
     color: black;
-    font-size: 1rem;
+    font-size: 1vw;
+    width: fit-content;
 }
 
 .responsive:hover .gallery {
